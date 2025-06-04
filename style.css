@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn't increase total width/height */
+}
+
+.container {
+  max-width: 800px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-heading {
+  font-size: 3em;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+  word-wrap: break-word; /* Ensures long names break to next line */
+}
+
+.sub-heading {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 25px;
+  word-wrap: break-word;
+}
+
+.description {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  gap: 10px; /* Space between input and button */
+}
+
+.email-input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%; /* Full width on smaller screens */
+  max-width: 300px; /* Max width on larger screens */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.submit-button {
+  padding: 12px 25px;
+  background-color: #007bff; /* A standard blue for the button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #90ee90; /* Light green on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .main-heading {
+      font-size: 2.2em;
+  }
+
+  .sub-heading {
+      font-size: 1.4em;
+  }
+
+  .description {
+      font-size: 1em;
+  }
+
+  .signup-form {
+      flex-direction: column; /* Stack input and button vertically on small screens */
+      align-items: center; /* Center items when stacked */
+  }
+
+  .email-input {
+      max-width: 100%; /* Ensure input takes full available width */
+  }
+}
+
+@media (max-width: 400px) {
+  .main-heading {
+      font-size: 1.8em;
+  }
+
+  .sub-heading {
+      font-size: 1.2em;
+  }
+
+  .email-input,
+  .submit-button {
+      width: 100%;
+  }
+}
