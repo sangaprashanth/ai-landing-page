@@ -40,8 +40,7 @@ To run this project locally:![ai-landing-page screenshot](https://github.com/use
 
 2. Open `index.html` in your browser to view the landing page.
 
-Alternatively, you can [open it in Replit](https://replit.com) and paste the code into a new HTML/CSS project.
-
+Alternatively, you can [open it in Replit](https://replit.com/@sangaprashanth3/14-Days-Of-AI-Landing-Page) 
 ## 📬 Contribution
 
 Pull requests are welcome! If you'd like to contribute or suggest improvements, feel free to open an issue or PR.
