@@ -49,7 +49,7 @@ Pull requests are welcome! If you'd like to contribute or suggest improvements, 
 ## 📧 Stay Connected
 
 Want to follow my AI coding journey?  
-Sign up through the landing page or connect with me on [LinkedIn](https://linkedin.com/in/your-profile)
+Sign up through the landing page or connect with me on [LinkedIn](https://www.linkedin.com/in/prashanthsanga/)
 
 ---
 
